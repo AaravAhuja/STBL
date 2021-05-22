@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#s1 {
+    position: absolute;
+    height: 800px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0b35de 0%, #2e2d2a 100%);
+    display: table;
+    z-index: 9;
+}
+
+.pic {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.d1 {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#name {
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 40px;
+    font-family:'KoHo', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#s2 {
+    padding-top: 500px;
+    text-align: center;
+}
+
+p {
+    margin: 25px auto;
+    line-height: 1.3;
+    font-size: 25px;
+    max-width: 600px;
+}
+
+.menu {
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    list-style: none;
+    font-family: cursive;
+    cursor:pointer;
+}
+
+.links {
+    color: white;
+    font-size: 25px;
+    float:left;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:10px;
+    padding-left:10px;
+}
